@@ -1,0 +1,68 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\project\\alis\\build\\video_player_android\\intermediates\\merged_res\\release\\values-in\\values-in.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Alis\\.gradle\\caches\\transforms-3\\4d3b05803e6fd4061d206e6ff20d4657\\transformed\\core-1.7.0\\res\\values-in\\values-in.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "716",
+                        "endColumns": "100",
+                        "endOffsets": "812"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alis\\.gradle\\caches\\transforms-3\\7b1af292b926b2824caf3bb8eba223ad\\transformed\\jetified-exoplayer-core-2.18.0\\res\\values-in\\values-in.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,185,250,313,389,453,553,647",
+                        "endColumns": "67,61,64,62,75,63,99,93,68",
+                        "endOffsets": "118,180,245,308,384,448,548,642,711"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\project\\alis\\build\\video_player_android\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-in\\values-in.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Alis\\.gradle\\caches\\transforms-3\\4d3b05803e6fd4061d206e6ff20d4657\\transformed\\core-1.7.0\\res\\values-in\\values-in.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "716",
+                        "endColumns": "100",
+                        "endOffsets": "812"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alis\\.gradle\\caches\\transforms-3\\7b1af292b926b2824caf3bb8eba223ad\\transformed\\jetified-exoplayer-core-2.18.0\\res\\values-in\\values-in.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,185,250,313,389,453,553,647",
+                        "endColumns": "67,61,64,62,75,63,99,93,68",
+                        "endOffsets": "118,180,245,308,384,448,548,642,711"
+                    }
+                }
+            ]
+        }
+    ]
+}

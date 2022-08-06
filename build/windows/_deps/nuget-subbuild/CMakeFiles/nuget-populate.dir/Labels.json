@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/project/alis/build/windows/_deps/nuget-subbuild/CMakeFiles/nuget-populate"
+		},
+		{
+			"file" : "C:/project/alis/build/windows/_deps/nuget-subbuild/CMakeFiles/2664001e1c0eca683cff3edf4f432d63/nuget-populate.rule"
+		},
+		{
+			"file" : "C:/project/alis/build/windows/_deps/nuget-subbuild/CMakeFiles/e2d8a12e277086f6f1cc1cb5cfecdaf9/nuget-populate-complete.rule"
+		},
+		{
+			"file" : "C:/project/alis/build/windows/_deps/nuget-subbuild/CMakeFiles/69d6527bf22860b06454e706a2bfd740/nuget-populate-build.rule"
+		},
+		{
+			"file" : "C:/project/alis/build/windows/_deps/nuget-subbuild/CMakeFiles/69d6527bf22860b06454e706a2bfd740/nuget-populate-configure.rule"
+		},
+		{
+			"file" : "C:/project/alis/build/windows/_deps/nuget-subbuild/CMakeFiles/69d6527bf22860b06454e706a2bfd740/nuget-populate-copyfile.rule"
+		},
+		{
+			"file" : "C:/project/alis/build/windows/_deps/nuget-subbuild/CMakeFiles/69d6527bf22860b06454e706a2bfd740/nuget-populate-download.rule"
+		},
+		{
+			"file" : "C:/project/alis/build/windows/_deps/nuget-subbuild/CMakeFiles/69d6527bf22860b06454e706a2bfd740/nuget-populate-install.rule"
+		},
+		{
+			"file" : "C:/project/alis/build/windows/_deps/nuget-subbuild/CMakeFiles/69d6527bf22860b06454e706a2bfd740/nuget-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/project/alis/build/windows/_deps/nuget-subbuild/CMakeFiles/69d6527bf22860b06454e706a2bfd740/nuget-populate-patch.rule"
+		},
+		{
+			"file" : "C:/project/alis/build/windows/_deps/nuget-subbuild/CMakeFiles/69d6527bf22860b06454e706a2bfd740/nuget-populate-test.rule"
+		},
+		{
+			"file" : "C:/project/alis/build/windows/_deps/nuget-subbuild/CMakeFiles/69d6527bf22860b06454e706a2bfd740/nuget-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nuget-populate"
+		],
+		"name" : "nuget-populate"
+	}
+}

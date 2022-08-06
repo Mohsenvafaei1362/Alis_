@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\project\\alis\\build\\audioplayers_android\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-kk\\values-kk.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Alis\\.gradle\\caches\\transforms-3\\4d3b05803e6fd4061d206e6ff20d4657\\transformed\\core-1.7.0\\res\\values-kk\\values-kk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\project\\alis\\build\\audioplayers_android\\intermediates\\merged_res\\release\\values-kk\\values-kk.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Alis\\.gradle\\caches\\transforms-3\\4d3b05803e6fd4061d206e6ff20d4657\\transformed\\core-1.7.0\\res\\values-kk\\values-kk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,153 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.alis"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\project\alis\android\app\src\debug\AndroidManifest.xml:7:5-66
+15-->C:\project\alis\android\app\src\debug\AndroidManifest.xml:7:22-64
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->[:geolocator_android] C:\project\alis\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-77
+16-->[:geolocator_android] C:\project\alis\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-74
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->[:photo_manager] C:\project\alis\build\photo_manager\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-80
+17-->[:photo_manager] C:\project\alis\build\photo_manager\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-77
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->[:location] C:\project\alis\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+18-->[:location] C:\project\alis\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->[:location] C:\project\alis\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-79
+19-->[:location] C:\project\alis\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-76
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.android.exoplayer:exoplayer-core:2.18.0] C:\Users\Alis\.gradle\caches\transforms-3\7b1af292b926b2824caf3bb8eba223ad\transformed\jetified-exoplayer-core-2.18.0\AndroidManifest.xml:24:5-79
+20-->[com.google.android.exoplayer:exoplayer-core:2.18.0] C:\Users\Alis\.gradle\caches\transforms-3\7b1af292b926b2824caf3bb8eba223ad\transformed\jetified-exoplayer-core-2.18.0\AndroidManifest.xml:24:22-76
+21
+22    <application
+23        android:name="android.app.Application"
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.7.0] C:\Users\Alis\.gradle\caches\transforms-3\4d3b05803e6fd4061d206e6ff20d4657\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+27        android:label="alis" >
+28        <activity
+29            android:name="com.example.alis.MainActivity"
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+31            android:exported="true"
+32            android:hardwareAccelerated="true"
+33            android:launchMode="singleTop"
+34            android:theme="@style/LaunchTheme"
+35            android:windowSoftInputMode="adjustResize" >
+36
+37            <!--
+38                 Specifies an Android theme to apply to this Activity as soon as
+39                 the Android process has started. This theme is visible to the user
+40                 while the Flutter UI initializes. After that, this theme continues
+41                 to determine the Window background behind the Flutter UI.
+42            -->
+43            <meta-data
+44                android:name="io.flutter.embedding.android.NormalTheme"
+45                android:resource="@style/NormalTheme" />
+46
+47            <intent-filter>
+48                <action android:name="android.intent.action.MAIN" />
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+51            </intent-filter>
+52        </activity>
+53        <!--
+54             Don't delete the meta-data below.
+55             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+56        -->
+57        <meta-data
+58            android:name="flutterEmbedding"
+59            android:value="2" />
+60
+61        <service
+61-->[:geolocator_android] C:\project\alis\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:56
+62            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+62-->[:geolocator_android] C:\project\alis\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-77
+63            android:enabled="true"
+63-->[:geolocator_android] C:\project\alis\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-35
+64            android:exported="false"
+64-->[:geolocator_android] C:\project\alis\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
+65            android:foregroundServiceType="location" />
+65-->[:geolocator_android] C:\project\alis\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-53
+66
+67        <provider
+67-->[:share_plus] C:\project\alis\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+68            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+68-->[:share_plus] C:\project\alis\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-77
+69            android:authorities="com.example.alis.flutter.share_provider"
+69-->[:share_plus] C:\project\alis\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+70            android:exported="false"
+70-->[:share_plus] C:\project\alis\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+71            android:grantUriPermissions="true" >
+71-->[:share_plus] C:\project\alis\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+72            <meta-data
+72-->[:share_plus] C:\project\alis\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:68
+73                android:name="android.support.FILE_PROVIDER_PATHS"
+73-->[:share_plus] C:\project\alis\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+74                android:resource="@xml/flutter_share_file_paths" />
+74-->[:share_plus] C:\project\alis\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-65
+75        </provider>
+76
+77        <activity
+77-->[:url_launcher_android] C:\project\alis\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+78            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+78-->[:url_launcher_android] C:\project\alis\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+79            android:exported="false"
+79-->[:url_launcher_android] C:\project\alis\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+80            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+80-->[:url_launcher_android] C:\project\alis\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+81
+82        <service
+82-->[:location] C:\project\alis\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-17:56
+83            android:name="com.lyokone.location.FlutterLocationService"
+83-->[:location] C:\project\alis\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-71
+84            android:enabled="true"
+84-->[:location] C:\project\alis\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-35
+85            android:exported="false"
+85-->[:location] C:\project\alis\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+86            android:foregroundServiceType="location" />
+86-->[:location] C:\project\alis\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-53
+87
+88        <uses-library
+88-->[androidx.window:window:1.0.0-beta04] C:\Users\Alis\.gradle\caches\transforms-3\8c52c4f9b0afd78d2f72502eac00cd01\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+89            android:name="androidx.window.extensions"
+89-->[androidx.window:window:1.0.0-beta04] C:\Users\Alis\.gradle\caches\transforms-3\8c52c4f9b0afd78d2f72502eac00cd01\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+90            android:required="false" />
+90-->[androidx.window:window:1.0.0-beta04] C:\Users\Alis\.gradle\caches\transforms-3\8c52c4f9b0afd78d2f72502eac00cd01\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+91        <uses-library
+91-->[androidx.window:window:1.0.0-beta04] C:\Users\Alis\.gradle\caches\transforms-3\8c52c4f9b0afd78d2f72502eac00cd01\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+92            android:name="androidx.window.sidecar"
+92-->[androidx.window:window:1.0.0-beta04] C:\Users\Alis\.gradle\caches\transforms-3\8c52c4f9b0afd78d2f72502eac00cd01\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+93            android:required="false" />
+93-->[androidx.window:window:1.0.0-beta04] C:\Users\Alis\.gradle\caches\transforms-3\8c52c4f9b0afd78d2f72502eac00cd01\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+94
+95        <activity
+95-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Alis\.gradle\caches\transforms-3\4bb6fef7dfdb92d0e1da6ce907410e97\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+96            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+96-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Alis\.gradle\caches\transforms-3\4bb6fef7dfdb92d0e1da6ce907410e97\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+97            android:exported="false"
+97-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Alis\.gradle\caches\transforms-3\4bb6fef7dfdb92d0e1da6ce907410e97\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+98            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+98-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Alis\.gradle\caches\transforms-3\4bb6fef7dfdb92d0e1da6ce907410e97\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+99
+100        <meta-data
+100-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Alis\.gradle\caches\transforms-3\fdf11e2ecdd8a726da5811acf854713f\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+101            android:name="com.google.android.gms.version"
+101-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Alis\.gradle\caches\transforms-3\fdf11e2ecdd8a726da5811acf854713f\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+102            android:value="@integer/google_play_services_version" />
+102-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Alis\.gradle\caches\transforms-3\fdf11e2ecdd8a726da5811acf854713f\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+103    </application>
+104
+105</manifest>

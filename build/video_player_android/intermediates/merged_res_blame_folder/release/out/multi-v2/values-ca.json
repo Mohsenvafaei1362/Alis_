@@ -1,0 +1,68 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\project\\alis\\build\\video_player_android\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ca\\values-ca.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Alis\\.gradle\\caches\\transforms-3\\7b1af292b926b2824caf3bb8eba223ad\\transformed\\jetified-exoplayer-core-2.18.0\\res\\values-ca\\values-ca.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,133,192,261,331,407,483,581,676",
+                        "endColumns": "77,58,68,69,75,75,97,94,81",
+                        "endOffsets": "128,187,256,326,402,478,576,671,753"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alis\\.gradle\\caches\\transforms-3\\4d3b05803e6fd4061d206e6ff20d4657\\transformed\\core-1.7.0\\res\\values-ca\\values-ca.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "758",
+                        "endColumns": "100",
+                        "endOffsets": "854"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\project\\alis\\build\\video_player_android\\intermediates\\merged_res\\release\\values-ca\\values-ca.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Alis\\.gradle\\caches\\transforms-3\\7b1af292b926b2824caf3bb8eba223ad\\transformed\\jetified-exoplayer-core-2.18.0\\res\\values-ca\\values-ca.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,133,192,261,331,407,483,581,676",
+                        "endColumns": "77,58,68,69,75,75,97,94,81",
+                        "endOffsets": "128,187,256,326,402,478,576,671,753"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alis\\.gradle\\caches\\transforms-3\\4d3b05803e6fd4061d206e6ff20d4657\\transformed\\core-1.7.0\\res\\values-ca\\values-ca.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "758",
+                        "endColumns": "100",
+                        "endOffsets": "854"
+                    }
+                }
+            ]
+        }
+    ]
+}

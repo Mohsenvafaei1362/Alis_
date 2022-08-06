@@ -1,0 +1,145 @@
+import 'package:alis/screens/complaints/complaint_form.dart';
+import 'package:alis/screens/login/login_one.dart';
+import 'package:alis/screens/product/components/body.dart';
+import 'package:flutter/material.dart';
+import 'package:get/get_core/src/get_main.dart';
+import 'package:get/get_navigation/src/extension_navigation.dart';
+import 'package:persian_number_utility/persian_number_utility.dart';
+
+class Online_Payment2 extends StatelessWidget {
+  Online_Payment2({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    final size = MediaQuery.of(context).size;
+    return Scaffold(
+      backgroundColor: Colors.white,
+      body: SafeArea(
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              Padding(
+                padding: EdgeInsets.all(12),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: [
+                    Icon(Icons.question_mark_rounded),
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: 100,
+              ),
+              Image.asset(
+                'assets/images/post.jpg',
+                width: size.width,
+                height: size.height * 0.47,
+                fit: BoxFit.fitWidth,
+              ),
+              SizedBox(
+                height: 30,
+              ),
+              Text(
+                'سفارش شما با موفقیت ثبت گردید',
+                style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 14,
+                    color: Colors.green),
+              ),
+              Text(
+                'جهت پیگیری سفارش می توانید به صفحه مدیریت سفارشات مراجعه فرمایید'
+                    .toPersianDigit(),
+                style: TextStyle(fontSize: 10, color: Colors.black45),
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    'شماره سفارش',
+                    style: TextStyle(color: Colors.black45),
+                  ),
+                  SizedBox(
+                    width: 5,
+                  ),
+                  Text(
+                    '6327641856'.toPersianDigit(),
+                    style: TextStyle(color: Colors.black45),
+                  )
+                ],
+              ),
+              SizedBox(
+                height: 60,
+              ),
+              SizedBox(
+                width: size.width * 0.9,
+                height: size.height * 0.06,
+                child: ElevatedButton(
+                  onPressed: () {
+                    Get.to(
+                      Directionality(
+                        textDirection: TextDirection.rtl,
+                        child: Body(),
+                      ),
+                    );
+                  },
+                  child: Text(
+                    'برگشت به صفحه اصلی',
+                    style: TextStyle(fontFamily: 'IransansDn', fontSize: 13),
+                  ),
+                ),
+              ),
+              // Row(
+              //   children: [
+              //     SizedBox(
+              //       width: size.width * 0.09,
+              //       height: size.height * 0.06,
+              //       child: ElevatedButton(
+              //         onPressed: () {
+              //           Get.to(
+              //             Directionality(
+              //               textDirection: TextDirection.rtl,
+              //               child: LoginOne(
+              //                 onChanged: (value) {},
+              //               ),
+              //             ),
+              //           );
+              //         },
+              //         child: Text(
+              //           'برگشت به صفحه ورود',
+              //           style:
+              //               TextStyle(fontFamily: 'IransansDn', fontSize: 13),
+              //         ),
+              //       ),
+              //     ),
+              //     // Spacer(),
+              //     // SizedBox(
+              //     //   width: size.width / 3.2,
+              //     //   height: 50,
+              //     //   child: ElevatedButton(
+              //     //     style: ButtonStyle(
+              //     //       backgroundColor: MaterialStateProperty.all(Colors.red),
+              //     //     ),
+              //     //     onPressed: () {
+              //     //       Get.to(
+              //     //         Directionality(
+              //     //           textDirection: TextDirection.rtl,
+              //     //           child: Support(),
+              //     //         ),
+              //     //       );
+              //     //     },
+              //     //     child: Text(
+              //     //       'مرکز پشتیبانی',
+              //     //       style:
+              //     //           TextStyle(fontFamily: 'IransansDn', fontSize: 13),
+              //     //     ),
+              //     //   ),
+              //     // ),
+              //   ],
+              // ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
